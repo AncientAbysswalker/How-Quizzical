@@ -3,6 +3,7 @@ import background from "./img/background.jpg";
 
 const col_grey = "#494949";
 const col_blue = "#1e90ff";
+const col_loadgrey = "#b9b9b9";
 
 export const GlobalStyle = createGlobalStyle`
     html {
@@ -108,7 +109,7 @@ export const Wrapper = styled.div`
   }
 
   .loader {
-    border: 8px solid ${col_grey};
+    border: 8px solid ${col_loadgrey};
     border-radius: 50%;
     border-top: 8px solid ${col_blue};
     width: 80px;
